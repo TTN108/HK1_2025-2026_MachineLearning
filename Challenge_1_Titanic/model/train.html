@@ -7526,7 +7526,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># %load_ext autoreload</span>
@@ -7558,15 +7558,15 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">params_cfg</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"action"</span>   <span class="p">:</span> <span class="s2">"train_feat01"</span><span class="p">,</span>  
-    <span class="s2">"feat_path"</span><span class="p">:</span> <span class="s2">"../../exps/featbase_251028/data.npz"</span><span class="p">,</span>
+    <span class="s2">"action"</span>   <span class="p">:</span> <span class="s2">"main_feat01"</span><span class="p">,</span>  
+    <span class="s2">"feat_path"</span><span class="p">:</span> <span class="s2">"../../exps/featbase_19102025/data.npz"</span><span class="p">,</span>
     <span class="s2">"seed"</span>    <span class="p">:</span> <span class="mi">42</span><span class="p">,</span> <span class="c1"># Set random seed</span>
     <span class="s2">"exp_dir"</span> <span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">'../../exps'</span><span class="p">),</span>
-    <span class="s1">'exp_name'</span><span class="p">:</span> <span class="s1">'trainbase_251028'</span><span class="p">,</span>
+    <span class="s1">'exp_name'</span><span class="p">:</span> <span class="s1">'trainbase_19102025'</span><span class="p">,</span>
     <span class="s2">"data_dir"</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">"../../data/titanic"</span><span class="p">),</span>
     <span class="s2">"verbose"</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
 <span class="p">}</span>
@@ -7590,14 +7590,14 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>+ action: train_feat01
-+ feat_path: ../../exps/featbase_251028/data.npz
+<pre>+ action: main_feat01
++ feat_path: ../../exps/featbase_19102025/data.npz
 + seed: 42
 + exp_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\exps
-+ exp_name: trainbase_251028
++ exp_name: trainbase_19102025
 + data_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\data\titanic
 + verbose: True
-+ save_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\exps\trainbase_251028
++ save_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\exps\trainbase_19102025
 </pre>
 </div>
 </div>
@@ -7619,7 +7619,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">data_dir</span> <span class="o">=</span> <span class="s1">'../../../data/titanic'</span>
@@ -7645,9 +7645,9 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>---------- information ----------
-train-col: {'Survived', 'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
-test-col: {'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
-Union: {'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
+train-col: {'Name', 'Embarked', 'Pclass', 'PassengerId', 'Sex', 'Fare', 'SibSp', 'Age', 'Cabin', 'Survived', 'Ticket', 'Parch'}
+test-col: {'Name', 'Embarked', 'Pclass', 'PassengerId', 'Sex', 'Fare', 'SibSp', 'Age', 'Cabin', 'Ticket', 'Parch'}
+Union: {'Embarked', 'Name', 'Pclass', 'Sex', 'PassengerId', 'Fare', 'SibSp', 'Age', 'Cabin', 'Ticket', 'Parch'}
 Difference: {'Survived'}
 </pre>
 </div>
@@ -7670,7 +7670,7 @@ Difference: {'Survived'}
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">preprocessing_feature_01</span><span class="p">(</span><span class="n">df_data</span><span class="p">,</span> <span class="n">is_train</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">is_debug</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -7703,9 +7703,9 @@ Difference: {'Survived'}
 
     <span class="k">if</span> <span class="n">is_debug</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"head(10)"</span><span class="p">)</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"tail(10)"</span><span class="p">)</span>
-        <span class="c1"># display.display(df_data.tail(5))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"isna"</span><span class="p">)</span>
         <span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
         <span class="c1"># Sex: gioi tinh</span>
@@ -7729,8 +7729,22 @@ Difference: {'Survived'}
     <span class="k">return</span> <span class="n">df_output</span><span class="p">,</span> <span class="kc">None</span>
     <span class="k">pass</span>
 
-<span class="c1"># df_train = pd.read_csv(f'{data_dir}/train.csv')</span>
-<span class="c1"># preprocessing_feature_01(df_train)</span>
+<span class="n">df_train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">data_dir</span><span class="si">}</span><span class="s1">/train.csv'</span><span class="p">)</span>
+<span class="n">preprocessing_feature_01</span><span class="p">(</span><span class="n">df_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b9ab00eb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 </div>
 </div>
@@ -7772,12 +7786,12 @@ Difference: {'Survived'}
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=22af8482">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=22af8482">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">main_feat01</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -7800,6 +7814,19 @@ Difference: {'Survived'}
     <span class="nb">print</span><span class="p">(</span><span class="s2">"Runing ... [main_feat01]"</span><span class="p">)</span>
     <span class="n">main_feat01</span><span class="p">(</span><span class="n">global_cfg</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">())</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Runing ... [main_feat01]
+</pre>
 </div>
 </div>
 </div>
