@@ -7526,7 +7526,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># %load_ext autoreload</span>
@@ -7558,15 +7558,15 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">params_cfg</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"action"</span>   <span class="p">:</span> <span class="s2">"train_feat01"</span><span class="p">,</span>  
-    <span class="s2">"feat_path"</span><span class="p">:</span> <span class="s2">"../../exps/featbase_251028/data.npz"</span><span class="p">,</span>
+    <span class="s2">"action"</span>   <span class="p">:</span> <span class="s2">"main_feat02"</span><span class="p">,</span>  
+    <span class="s2">"feat_path"</span><span class="p">:</span> <span class="s2">"../../../exps/featbase_22102025/data.npz"</span><span class="p">,</span>
     <span class="s2">"seed"</span>    <span class="p">:</span> <span class="mi">42</span><span class="p">,</span> <span class="c1"># Set random seed</span>
-    <span class="s2">"exp_dir"</span> <span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">'../../exps'</span><span class="p">),</span>
-    <span class="s1">'exp_name'</span><span class="p">:</span> <span class="s1">'trainbase_251028'</span><span class="p">,</span>
+    <span class="s2">"exp_dir"</span> <span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">'../../../exps'</span><span class="p">),</span>
+    <span class="s1">'exp_name'</span><span class="p">:</span> <span class="s1">'trainbase_22102025'</span><span class="p">,</span>
     <span class="s2">"data_dir"</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">"../../data/titanic"</span><span class="p">),</span>
     <span class="s2">"verbose"</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
 <span class="p">}</span>
@@ -7590,14 +7590,14 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>+ action: train_feat01
-+ feat_path: ../../exps/featbase_251028/data.npz
+<pre>+ action: main_feat02
++ feat_path: ../../../exps/featbase_22102025/data.npz
 + seed: 42
-+ exp_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\exps
-+ exp_name: trainbase_251028
++ exp_dir: d:\ai_practice_prj\exps
++ exp_name: trainbase_22102025
 + data_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\data\titanic
 + verbose: True
-+ save_dir: d:\ai_practice_prj\HK1_2025-2026_MachineLearning\exps\trainbase_251028
++ save_dir: d:\ai_practice_prj\exps\trainbase_22102025
 </pre>
 </div>
 </div>
@@ -7619,7 +7619,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">data_dir</span> <span class="o">=</span> <span class="s1">'../../../data/titanic'</span>
@@ -7645,9 +7645,9 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>---------- information ----------
-train-col: {'Survived', 'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
-test-col: {'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
-Union: {'Fare', 'Embarked', 'Age', 'Name', 'Ticket', 'PassengerId', 'Pclass', 'SibSp', 'Sex', 'Cabin', 'Parch'}
+train-col: {'Ticket', 'Name', 'Sex', 'Survived', 'Pclass', 'Fare', 'Embarked', 'PassengerId', 'Age', 'Cabin', 'Parch', 'SibSp'}
+test-col: {'Ticket', 'Name', 'Sex', 'Pclass', 'Fare', 'Embarked', 'PassengerId', 'Age', 'Cabin', 'Parch', 'SibSp'}
+Union: {'Ticket', 'Name', 'Sex', 'Fare', 'Pclass', 'Embarked', 'PassengerId', 'Age', 'Cabin', 'Parch', 'SibSp'}
 Difference: {'Survived'}
 </pre>
 </div>
@@ -7665,12 +7665,12 @@ Difference: {'Survived'}
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=faebb29d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=faebb29d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">preprocessing_feature_01</span><span class="p">(</span><span class="n">df_data</span><span class="p">,</span> <span class="n">is_train</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">is_debug</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -7703,9 +7703,9 @@ Difference: {'Survived'}
 
     <span class="k">if</span> <span class="n">is_debug</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"head(10)"</span><span class="p">)</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"tail(10)"</span><span class="p">)</span>
-        <span class="c1"># display.display(df_data.tail(5))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"isna"</span><span class="p">)</span>
         <span class="n">display</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="n">df_data</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
         <span class="c1"># Sex: gioi tinh</span>
@@ -7729,9 +7729,585 @@ Difference: {'Survived'}
     <span class="k">return</span> <span class="n">df_output</span><span class="p">,</span> <span class="kc">None</span>
     <span class="k">pass</span>
 
-<span class="c1"># df_train = pd.read_csv(f'{data_dir}/train.csv')</span>
-<span class="c1"># preprocessing_feature_01(df_train)</span>
+<span class="n">df_train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">data_dir</span><span class="si">}</span><span class="s1">/train.csv'</span><span class="p">)</span>
+<span class="n">preprocessing_feature_01</span><span class="p">(</span><span class="n">df_train</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>head(10)
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>PassengerId</th>
+<th>Survived</th>
+<th>Pclass</th>
+<th>Name</th>
+<th>Sex</th>
+<th>Age</th>
+<th>SibSp</th>
+<th>Parch</th>
+<th>Ticket</th>
+<th>Fare</th>
+<th>Cabin</th>
+<th>Embarked</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>Braund, Mr. Owen Harris</td>
+<td>male</td>
+<td>22.0</td>
+<td>1</td>
+<td>0</td>
+<td>A/5 21171</td>
+<td>7.2500</td>
+<td>NaN</td>
+<td>S</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+<td>female</td>
+<td>38.0</td>
+<td>1</td>
+<td>0</td>
+<td>PC 17599</td>
+<td>71.2833</td>
+<td>C85</td>
+<td>C</td>
+</tr>
+<tr>
+<th>2</th>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>Heikkinen, Miss. Laina</td>
+<td>female</td>
+<td>26.0</td>
+<td>0</td>
+<td>0</td>
+<td>STON/O2. 3101282</td>
+<td>7.9250</td>
+<td>NaN</td>
+<td>S</td>
+</tr>
+<tr>
+<th>3</th>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+<td>female</td>
+<td>35.0</td>
+<td>1</td>
+<td>0</td>
+<td>113803</td>
+<td>53.1000</td>
+<td>C123</td>
+<td>S</td>
+</tr>
+<tr>
+<th>4</th>
+<td>5</td>
+<td>0</td>
+<td>3</td>
+<td>Allen, Mr. William Henry</td>
+<td>male</td>
+<td>35.0</td>
+<td>0</td>
+<td>0</td>
+<td>373450</td>
+<td>8.0500</td>
+<td>NaN</td>
+<td>S</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>None
+tail(10)
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>PassengerId</th>
+<th>Survived</th>
+<th>Pclass</th>
+<th>Name</th>
+<th>Sex</th>
+<th>Age</th>
+<th>SibSp</th>
+<th>Parch</th>
+<th>Ticket</th>
+<th>Fare</th>
+<th>Cabin</th>
+<th>Embarked</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>886</th>
+<td>887</td>
+<td>0</td>
+<td>2</td>
+<td>Montvila, Rev. Juozas</td>
+<td>male</td>
+<td>27.0</td>
+<td>0</td>
+<td>0</td>
+<td>211536</td>
+<td>13.00</td>
+<td>NaN</td>
+<td>S</td>
+</tr>
+<tr>
+<th>887</th>
+<td>888</td>
+<td>1</td>
+<td>1</td>
+<td>Graham, Miss. Margaret Edith</td>
+<td>female</td>
+<td>19.0</td>
+<td>0</td>
+<td>0</td>
+<td>112053</td>
+<td>30.00</td>
+<td>B42</td>
+<td>S</td>
+</tr>
+<tr>
+<th>888</th>
+<td>889</td>
+<td>0</td>
+<td>3</td>
+<td>Johnston, Miss. Catherine Helen "Carrie"</td>
+<td>female</td>
+<td>NaN</td>
+<td>1</td>
+<td>2</td>
+<td>W./C. 6607</td>
+<td>23.45</td>
+<td>NaN</td>
+<td>S</td>
+</tr>
+<tr>
+<th>889</th>
+<td>890</td>
+<td>1</td>
+<td>1</td>
+<td>Behr, Mr. Karl Howell</td>
+<td>male</td>
+<td>26.0</td>
+<td>0</td>
+<td>0</td>
+<td>111369</td>
+<td>30.00</td>
+<td>C148</td>
+<td>C</td>
+</tr>
+<tr>
+<th>890</th>
+<td>891</td>
+<td>0</td>
+<td>3</td>
+<td>Dooley, Mr. Patrick</td>
+<td>male</td>
+<td>32.0</td>
+<td>0</td>
+<td>0</td>
+<td>370376</td>
+<td>7.75</td>
+<td>NaN</td>
+<td>Q</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>None
+isna
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>sex
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>(array(['female', 'male'], dtype=object), array([314, 577], dtype=int64))</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Age IsNa: 177
+Age Median: 28.0
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>count    891.000000
+mean      32.204208
+std       49.693429
+min        0.000000
+25%        7.910400
+50%       14.454200
+75%       31.000000
+max      512.329200
+Name: Fare, dtype: float64</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>-*10 Cabin
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>(array(['A10', 'A14', 'A16', 'A19', 'A20', 'A23', 'A24', 'A26', 'A31',
+        'A32', 'A34', 'A36', 'A5', 'A6', 'A7', 'B101', 'B102', 'B18',
+        'B19', 'B20', 'B22', 'B28', 'B3', 'B30', 'B35', 'B37', 'B38',
+        'B39', 'B4', 'B41', 'B42', 'B49', 'B5', 'B50', 'B51 B53 B55',
+        'B57 B59 B63 B66', 'B58 B60', 'B69', 'B71', 'B73', 'B77', 'B78',
+        'B79', 'B80', 'B82 B84', 'B86', 'B94', 'B96 B98', 'C101', 'C103',
+        'C104', 'C106', 'C110', 'C111', 'C118', 'C123', 'C124', 'C125',
+        'C126', 'C128', 'C148', 'C2', 'C22 C26', 'C23 C25 C27', 'C30',
+        'C32', 'C45', 'C46', 'C47', 'C49', 'C50', 'C52', 'C54', 'C62 C64',
+        'C65', 'C68', 'C7', 'C70', 'C78', 'C82', 'C83', 'C85', 'C86',
+        'C87', 'C90', 'C91', 'C92', 'C93', 'C95', 'C99', 'D', 'D10 D12',
+        'D11', 'D15', 'D17', 'D19', 'D20', 'D21', 'D26', 'D28', 'D30',
+        'D33', 'D35', 'D36', 'D37', 'D45', 'D46', 'D47', 'D48', 'D49',
+        'D50', 'D56', 'D6', 'D7', 'D9', 'E10', 'E101', 'E12', 'E121',
+        'E17', 'E24', 'E25', 'E31', 'E33', 'E34', 'E36', 'E38', 'E40',
+        'E44', 'E46', 'E49', 'E50', 'E58', 'E63', 'E67', 'E68', 'E77',
+        'E8', 'F E69', 'F G63', 'F G73', 'F2', 'F33', 'F38', 'F4', 'G6',
+        'T', 'Z0'], dtype=object),
+ array([  1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,
+          1,   1,   1,   1,   2,   1,   2,   2,   2,   1,   1,   2,   1,
+          1,   1,   1,   1,   1,   2,   2,   1,   2,   2,   2,   1,   1,
+          1,   2,   1,   1,   1,   1,   1,   1,   4,   1,   1,   1,   1,
+          1,   1,   1,   2,   2,   2,   2,   1,   1,   2,   3,   4,   1,
+          1,   1,   1,   1,   1,   1,   2,   1,   1,   2,   2,   1,   1,
+          2,   1,   2,   1,   1,   1,   1,   1,   2,   2,   1,   1,   3,
+          1,   1,   1,   2,   1,   2,   1,   2,   1,   1,   2,   2,   2,
+          1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   3,
+          1,   2,   1,   2,   2,   1,   2,   1,   1,   1,   1,   2,   1,
+          1,   1,   1,   1,   2,   1,   1,   2,   1,   1,   2,   3,   3,
+          1,   2,   4,   1, 687], dtype=int64))</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>(array(['0', 'C', 'Q', 'S'], dtype=object),
+ array([  2, 168,  77, 644], dtype=int64))</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>(     Sex   Age     Fare  Pclass  SibSp  Parch  Cabin  Embarked  Surname  \
+ 0      1  22.0   7.2500       3      1      0      0         3       11   
+ 1      0  38.0  71.2833       1      1      0      3         1       12   
+ 2      0  26.0   7.9250       3      0      0      0         3        8   
+ 3      0  35.0  53.1000       1      1      0      3         3       12   
+ 4      1  35.0   8.0500       3      0      0      0         3       11   
+ ..   ...   ...      ...     ...    ...    ...    ...       ...      ...   
+ 886    1  27.0  13.0000       2      0      0      0         3       14   
+ 887    0  19.0  30.0000       1      0      0      2         3        8   
+ 888    0  28.0  23.4500       3      1      2      0         3        8   
+ 889    1  26.0  30.0000       1      0      0      3         1       11   
+ 890    1  32.0   7.7500       3      0      0      0         2       11   
+ 
+      Output  
+ 0         0  
+ 1         1  
+ 2         1  
+ 3         1  
+ 4         0  
+ ..      ...  
+ 886       0  
+ 887       1  
+ 888       0  
+ 889       1  
+ 890       0  
+ 
+ [891 rows x 10 columns],
+ None)</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b9ab00eb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="FEATURE-ENGINEERING">FEATURE ENGINEERING<a class="anchor-link" href="#FEATURE-ENGINEERING">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fc7e66cc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== FEATURE ENGINEERING ==="</span><span class="p">)</span>
+
+<span class="c1"># 4.1. Trích xuất Title từ Name</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="s1">'Name'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="s1">' ([A-Za-z]+)\.'</span><span class="p">,</span> <span class="n">expand</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_test</span><span class="p">[</span><span class="s1">'Name'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="s1">' ([A-Za-z]+)\.'</span><span class="p">,</span> <span class="n">expand</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Nhóm các Title hiếm</span>
+<span class="n">title_mapping</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'Mr'</span><span class="p">:</span> <span class="s1">'Mr'</span><span class="p">,</span> <span class="s1">'Miss'</span><span class="p">:</span> <span class="s1">'Miss'</span><span class="p">,</span> <span class="s1">'Mrs'</span><span class="p">:</span> <span class="s1">'Mrs'</span><span class="p">,</span> <span class="s1">'Master'</span><span class="p">:</span> <span class="s1">'Master'</span><span class="p">,</span>
+    <span class="s1">'Dr'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Rev'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Col'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Major'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span>
+    <span class="s1">'Mlle'</span><span class="p">:</span> <span class="s1">'Miss'</span><span class="p">,</span> <span class="s1">'Countess'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Ms'</span><span class="p">:</span> <span class="s1">'Miss'</span><span class="p">,</span> <span class="s1">'Lady'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span>
+    <span class="s1">'Jonkheer'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Don'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Dona'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Mme'</span><span class="p">:</span> <span class="s1">'Mrs'</span><span class="p">,</span>
+    <span class="s1">'Capt'</span><span class="p">:</span> <span class="s1">'Rare'</span><span class="p">,</span> <span class="s1">'Sir'</span><span class="p">:</span> <span class="s1">'Rare'</span>
+<span class="p">}</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">title_mapping</span><span class="p">)</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_test</span><span class="p">[</span><span class="s1">'Title'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">title_mapping</span><span class="p">)</span>
+
+<span class="c1"># 4.2. Nhóm Age theo khoảng</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'AgeGroup'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">df_train</span><span class="p">[</span><span class="s1">'Age'</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span>
+                              <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">'Child'</span><span class="p">,</span> <span class="s1">'Teen'</span><span class="p">,</span> <span class="s1">'Adult'</span><span class="p">,</span> <span class="s1">'Middle'</span><span class="p">,</span> <span class="s1">'Senior'</span><span class="p">])</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'AgeGroup'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">df_test</span><span class="p">[</span><span class="s1">'Age'</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span>
+                             <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">'Child'</span><span class="p">,</span> <span class="s1">'Teen'</span><span class="p">,</span> <span class="s1">'Adult'</span><span class="p">,</span> <span class="s1">'Middle'</span><span class="p">,</span> <span class="s1">'Senior'</span><span class="p">])</span>
+
+<span class="c1"># 4.3. Nhóm Fare thành 4 mức</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'FareGroup'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">df_train</span><span class="p">[</span><span class="s1">'Fare'</span><span class="p">],</span> <span class="mi">4</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">'Low'</span><span class="p">,</span> <span class="s1">'Mid'</span><span class="p">,</span> <span class="s1">'High'</span><span class="p">,</span> <span class="s1">'VeryHigh'</span><span class="p">])</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'FareGroup'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">df_test</span><span class="p">[</span><span class="s1">'Fare'</span><span class="p">],</span> <span class="mi">4</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">'Low'</span><span class="p">,</span> <span class="s1">'Mid'</span><span class="p">,</span> <span class="s1">'High'</span><span class="p">,</span> <span class="s1">'VeryHigh'</span><span class="p">])</span>
+
+<span class="c1"># 4.4. Tạo tính năng FamilySize</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'FamilySize'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="s1">'SibSp'</span><span class="p">]</span> <span class="o">+</span> <span class="n">df_train</span><span class="p">[</span><span class="s1">'Parch'</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'FamilySize'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_test</span><span class="p">[</span><span class="s1">'SibSp'</span><span class="p">]</span> <span class="o">+</span> <span class="n">df_test</span><span class="p">[</span><span class="s1">'Parch'</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="c1"># 4.5. Tính năng IsAlone</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'IsAlone'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_train</span><span class="p">[</span><span class="s1">'FamilySize'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'IsAlone'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_test</span><span class="p">[</span><span class="s1">'FamilySize'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="c1"># # 4.6 Fare cho 1 người</span>
+<span class="c1"># df_train['Fare_per_Person'] = df_train['Fare'] / df_train['FamilySize']</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"✓ Hoàn thành Feature Engineering"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+=== FEATURE ENGINEERING ===
+✓ Hoàn thành Feature Engineering
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0ac9d95c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="ENCODING">ENCODING<a class="anchor-link" href="#ENCODING">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=56c87036">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sex → số</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'Sex'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="s1">'Sex'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="s1">'male'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'female'</span><span class="p">:</span> <span class="mi">0</span><span class="p">})</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'Sex'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_test</span><span class="p">[</span><span class="s1">'Sex'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="s1">'male'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'female'</span><span class="p">:</span> <span class="mi">0</span><span class="p">})</span>
+
+<span class="c1"># One-hot encoding</span>
+<span class="n">categorical_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Embarked'</span><span class="p">,</span> <span class="s1">'Pclass'</span><span class="p">,</span> <span class="s1">'Title'</span><span class="p">,</span> <span class="s1">'AgeGroup'</span><span class="p">,</span> <span class="s1">'FareGroup'</span><span class="p">]</span>
+<span class="n">df_train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df_train</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">categorical_cols</span><span class="p">,</span> <span class="n">drop_first</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df_test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df_test</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">categorical_cols</span><span class="p">,</span> <span class="n">drop_first</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Đồng bộ cột giữa train và test</span>
+<span class="n">df_test</span> <span class="o">=</span> <span class="n">df_test</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">df_train</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">fill_value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"✓ Hoàn thành Encoding"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>✓ Hoàn thành Encoding
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=02318490">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="SCALING">SCALING<a class="anchor-link" href="#SCALING">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d725026c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">StandardScaler</span>
+
+<span class="n">target</span> <span class="o">=</span> <span class="s1">'Survived'</span>
+<span class="n">feature_cols</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_train</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="o">!=</span> <span class="n">target</span> <span class="ow">and</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'PassengerId'</span><span class="p">,</span><span class="s1">'Name'</span><span class="p">,</span><span class="s1">'Ticket'</span><span class="p">,</span><span class="s1">'Cabin'</span><span class="p">]]</span>
+<span class="n">df_test</span> <span class="o">=</span> <span class="n">df_test</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">feature_cols</span><span class="p">,</span> <span class="n">fill_value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<span class="n">df_train</span><span class="p">[</span><span class="s1">'Fare_Scaled'</span><span class="p">]</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df_train</span><span class="p">[[</span><span class="s1">'Fare'</span><span class="p">]])</span>
+<span class="n">df_test</span><span class="p">[</span><span class="s1">'Fare_Scaled'</span><span class="p">]</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">df_test</span><span class="p">[[</span><span class="s1">'Fare'</span><span class="p">]])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"✓ Hoàn thành Scaling"</span><span class="p">)</span>
+
+<span class="n">drop_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'PassengerId'</span><span class="p">,</span> <span class="s1">'Name'</span><span class="p">,</span> <span class="s1">'Ticket'</span><span class="p">,</span> <span class="s1">'Cabin'</span><span class="p">,</span> <span class="s1">'SibSp'</span><span class="p">,</span> <span class="s1">'Parch'</span><span class="p">,</span> <span class="s1">'Age'</span><span class="p">,</span> <span class="s1">'Fare'</span><span class="p">]</span>
+<span class="n">df_train</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">drop_cols</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">'ignore'</span><span class="p">)</span>
+<span class="n">df_test</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">drop_cols</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">'ignore'</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>✓ Hoàn thành Scaling
+</pre>
 </div>
 </div>
 </div>
@@ -7747,7 +8323,7 @@ Difference: {'Survived'}
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=302782ae">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=302782ae">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7755,8 +8331,230 @@ Difference: {'Survived'}
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.linear_model</span><span class="w"> </span><span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.svm</span><span class="w"> </span><span class="kn">import</span> <span class="n">SVC</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.neighbors</span><span class="w"> </span><span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.ensemble</span><span class="w"> </span><span class="kn">import</span> <span class="n">VotingClassifier</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.metrics</span><span class="w"> </span><span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">,</span> <span class="n">classification_report</span><span class="p">,</span> <span class="n">confusion_matrix</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.model_selection</span><span class="w"> </span><span class="kn">import</span> <span class="n">cross_val_score</span><span class="p">,</span> <span class="n">StratifiedKFold</span>
+
+<span class="n">feature_cols</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_train</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="o">!=</span> <span class="n">target</span><span class="p">]</span>
+
+<span class="n">X_train_full</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="n">feature_cols</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">y_train_full</span> <span class="o">=</span> <span class="n">df_train</span><span class="p">[</span><span class="n">target</span><span class="p">]</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">df_test</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">X_train_full</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">fill_value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">X_train_full</span> <span class="o">=</span> <span class="n">X_train_full</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">X_test</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"random_state"</span><span class="p">:</span> <span class="mi">42</span>
+<span class="p">}</span>
+
+<span class="c1"># kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)</span>
+<span class="c1"># scores = cross_val_score(best_model, X_train_full, y_train_full, cv=kfold, scoring='accuracy')</span>
+<span class="c1"># print("CV Accuracy:", scores.mean())</span>
+
+<span class="n">log_clf</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">params</span><span class="p">[</span><span class="s2">"random_state"</span><span class="p">])</span>
+<span class="n">svc_clf</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="s1">'rbf'</span><span class="p">,</span> <span class="n">probability</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">params</span><span class="p">[</span><span class="s2">"random_state"</span><span class="p">])</span>
+<span class="n">knn_clf</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="s1">'distance'</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">voting_clf</span> <span class="o">=</span> <span class="n">VotingClassifier</span><span class="p">(</span><span class="n">estimators</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">(</span><span class="s1">'lr'</span><span class="p">,</span> <span class="n">log_clf</span><span class="p">),</span> <span class="p">(</span><span class="s1">'svc'</span><span class="p">,</span> <span class="n">svc_clf</span><span class="p">),</span> <span class="p">(</span><span class="s1">'knn'</span><span class="p">,</span> <span class="n">knn_clf</span><span class="p">)</span>
+<span class="p">],</span> <span class="n">voting</span><span class="o">=</span><span class="s1">'soft'</span><span class="p">)</span>
+
+<span class="n">model_map</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'LogisticRegression'</span><span class="p">:</span> <span class="n">log_clf</span><span class="p">,</span>
+    <span class="s1">'SVC'</span><span class="p">:</span> <span class="n">svc_clf</span><span class="p">,</span>
+    <span class="s1">'KNeighbors'</span><span class="p">:</span> <span class="n">knn_clf</span><span class="p">,</span>
+    <span class="s1">'Voting'</span><span class="p">:</span> <span class="n">voting_clf</span>
+<span class="p">}</span>
+
+<span class="n">best_score</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.0</span>
+<span class="n">best_name</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">best_model</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">results</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">clf</span> <span class="ow">in</span> <span class="n">model_map</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_full</span><span class="p">,</span> <span class="n">y_train_full</span><span class="p">)</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_full</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">y_proba</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_train_full</span><span class="p">)[:,</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">roc</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_proba</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+        <span class="n">roc</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">'nan'</span><span class="p">)</span>  <span class="c1"># model không hỗ trợ predict_proba</span>
+    
+    <span class="n">acc</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="n">f1</span>  <span class="o">=</span> <span class="n">f1_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+    <span class="n">results</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'acc'</span><span class="p">:</span><span class="n">acc</span><span class="p">,</span> <span class="s1">'f1'</span><span class="p">:</span><span class="n">f1</span><span class="p">,</span> <span class="s1">'roc'</span><span class="p">:</span><span class="n">roc</span><span class="p">}</span>
+    
+    <span class="c1"># cập nhật best theo acc (hoặc theo metric khác bạn chọn)</span>
+    <span class="k">if</span> <span class="n">acc</span> <span class="o">&gt;</span> <span class="n">best_score</span><span class="p">:</span>
+        <span class="n">best_score</span> <span class="o">=</span> <span class="n">acc</span>
+        <span class="n">best_name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="n">best_model</span> <span class="o">=</span> <span class="n">clf</span>
+
+<span class="c1"># In kết quả</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span><span class="n">met</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">met</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Best:"</span><span class="p">,</span> <span class="n">best_name</span><span class="p">,</span> <span class="n">best_score</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+=== ĐÁNH GIÁ CÁC MÔ HÌNH CƠ SỞ ĐỘC LẬP ===
+
+--- Huấn luyện và Đánh giá: LogisticRegression ---
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[8], line 40</span>
+<span class="ansi-green-fg">     37</span> <span style="color: rgb(0,135,0)">print</span>(<span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">"</span><span class="ansi-bold" style="color: rgb(175,95,0)">\n</span><span style="color: rgb(175,0,0)">--- Huấn luyện và Đánh giá: </span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>name<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)"> ---</span><span style="color: rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg">     39</span> <span style="color: rgb(95,135,135)"># 1. Huấn luyện</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 40</span> clf<span style="color: rgb(98,98,98)">.</span>fit(<span class="ansi-yellow-bg">X_train_full</span>, y_train_full)
+<span class="ansi-green-fg">     42</span> <span style="color: rgb(95,135,135)"># 2. Dự đoán trên tập Train</span>
+<span class="ansi-green-fg">     43</span> y_pred_train <span style="color: rgb(98,98,98)">=</span> clf<span style="color: rgb(98,98,98)">.</span>predict(X_train_full)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'X_train_full' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bc2103ad">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cb6041fb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.metrics</span><span class="w"> </span><span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">,</span> <span class="n">classification_report</span><span class="p">,</span> <span class="n">confusion_matrix</span>
+
+<span class="n">model_map</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'LogisticRegression'</span><span class="p">:</span> <span class="n">log_clf</span><span class="p">,</span>
+    <span class="s1">'SVC'</span><span class="p">:</span> <span class="n">svc_clf</span><span class="p">,</span>
+    <span class="s1">'KNeighborsClassifier'</span><span class="p">:</span> <span class="n">knn_clf</span><span class="p">,</span>
+    <span class="s1">'VotingClassifier'</span><span class="p">:</span> <span class="n">voting_clf</span> 
+<span class="p">}</span>
+
+<span class="n">name_best_model</span> <span class="o">=</span> <span class="s1">'VotingClassifier'</span>
+<span class="n">final_model</span> <span class="o">=</span> <span class="n">model_map</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">name_best_model</span><span class="p">)</span> 
+
+<span class="k">if</span> <span class="n">final_model</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Tên mô hình tối ưu '</span><span class="si">{</span><span class="n">name_best_model</span><span class="si">}</span><span class="s2">' không hợp lệ hoặc chưa được định nghĩa."</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">✅ Đang đánh giá mô hình tối ưu: </span><span class="si">{</span><span class="n">name_best_model</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="c1"># -----------------------------------------------------------</span>
+
+<span class="c1"># --- 1. DỰ ĐOÁN và TÍNH XÁC SUẤT ---</span>
+<span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">final_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train_full</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">y_pred_proba_train</span> <span class="o">=</span> <span class="n">final_model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X_train_full</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">]</span>
+
+    <span class="n">train_roc</span> <span class="o">=</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred_proba_train</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+    <span class="n">train_roc</span> <span class="o">=</span> <span class="s2">"N/A"</span> <span class="c1"># Gán giá trị không xác định</span>
+
+<span class="c1"># --- 2. TÍNH CÁC CHỈ SỐ KHÁC ---</span>
+
+<span class="n">train_acc</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span>
+<span class="n">train_f1</span> <span class="o">=</span> <span class="n">f1_score</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span>
+
+<span class="c1"># --- 3. IN KẾT QUẢ TÓM TẮT ---</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">===================== KẾT QUẢ TRÊN TẬP TRAIN (Mô hình Tối ưu) ====================="</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mô hình: </span><span class="si">{</span><span class="n">name_best_model</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"1. Accuracy (Độ chính xác):     </span><span class="si">{</span><span class="n">train_acc</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"2. F1 Score:                    </span><span class="si">{</span><span class="n">train_f1</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">train_roc</span> <span class="o">!=</span> <span class="s2">"N/A"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"3. ROC-AUC Score:               </span><span class="si">{</span><span class="n">train_roc</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"3. ROC-AUC Score:               </span><span class="si">{</span><span class="n">train_roc</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"==================================================================================="</span><span class="p">)</span>
+
+<span class="c1"># --- 4. BÁO CÁO CHI TIẾT ---</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Classification Report ---"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">,</span> <span class="n">target_names</span><span class="o">=</span><span class="p">[</span><span class="s1">'Không sống sót (0)'</span><span class="p">,</span> <span class="s1">'Sống sót (1)'</span><span class="p">]))</span>
+
+<span class="c1"># --- 5. MA TRẬN NHẦM LẪN ---</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Confusion Matrix ---"</span><span class="p">)</span>
+<span class="n">cm</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_train_full</span><span class="p">,</span> <span class="n">y_pred_train</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Ma trận nhầm lẫn (Dòng: Giá trị thực, Cột: Dự đoán):"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cm</span><span class="p">)</span>
+
+<span class="c1"># Giải thích Ma trận nhầm lẫn (tùy chọn)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">- True Negatives (TN - 0 đúng): </span><span class="si">{</span><span class="n">cm</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> (Dự đoán 0, Thực tế 0)"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"- False Positives (FP - 1 sai): </span><span class="si">{</span><span class="n">cm</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2"> (Dự đoán 1, Thực tế 0 - Lỗi loại I)"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"- False Negatives (FN - 0 sai): </span><span class="si">{</span><span class="n">cm</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> (Dự đoán 0, Thực tế 1 - Lỗi loại II)"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"- True Positives (TP - 1 đúng): </span><span class="si">{</span><span class="n">cm</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2"> (Dự đoán 1, Thực tế 1)"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+✅ Đang đánh giá mô hình tối ưu: VotingClassifier
+
+===================== KẾT QUẢ TRÊN TẬP TRAIN (Mô hình Tối ưu) =====================
+Mô hình: VotingClassifier
+1. Accuracy (Độ chính xác):     0.8496
+2. F1 Score:                    0.7970
+3. ROC-AUC Score:               N/A
+===================================================================================
+
+--- Classification Report ---
+                    precision    recall  f1-score   support
+
+Không sống sót (0)       0.86      0.90      0.88       549
+      Sống sót (1)       0.83      0.77      0.80       342
+
+          accuracy                           0.85       891
+         macro avg       0.84      0.83      0.84       891
+      weighted avg       0.85      0.85      0.85       891
+
+
+--- Confusion Matrix ---
+Ma trận nhầm lẫn (Dòng: Giá trị thực, Cột: Dự đoán):
+[[494  55]
+ [ 79 263]]
+
+- True Negatives (TN - 0 đúng): 494 (Dự đoán 0, Thực tế 0)
+- False Positives (FP - 1 sai): 55 (Dự đoán 1, Thực tế 0 - Lỗi loại I)
+- False Negatives (FN - 0 sai): 79 (Dự đoán 0, Thực tế 1 - Lỗi loại II)
+- True Positives (TP - 1 đúng): 263 (Dự đoán 1, Thực tế 1)
+</pre>
 </div>
 </div>
 </div>
@@ -7772,15 +8570,15 @@ Difference: {'Survived'}
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=22af8482">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=22af8482">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">main_feat01</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">main_feat02</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
     <span class="c1"># load data</span>
     <span class="n">df_train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">data_dir</span><span class="si">}</span><span class="s1">/train.csv'</span><span class="p">)</span>
     <span class="n">df_test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">data_dir</span><span class="si">}</span><span class="s1">/test.csv'</span><span class="p">)</span>
@@ -7796,10 +8594,23 @@ Difference: {'Survived'}
     <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'global_cfg'</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="o">**</span><span class="nb">locals</span><span class="p">())</span>
     <span class="k">pass</span>
 
-<span class="k">if</span> <span class="n">params_cfg</span><span class="p">[</span><span class="s2">"action"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"main_feat01"</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Runing ... [main_feat01]"</span><span class="p">)</span>
-    <span class="n">main_feat01</span><span class="p">(</span><span class="n">global_cfg</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">())</span>
+<span class="k">if</span> <span class="n">params_cfg</span><span class="p">[</span><span class="s2">"action"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"main_feat02"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Runing ... [main_feat02]"</span><span class="p">)</span>
+    <span class="n">main_feat02</span><span class="p">(</span><span class="n">global_cfg</span> <span class="o">=</span> <span class="nb">globals</span><span class="p">())</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Runing ... [main_feat02]
+</pre>
 </div>
 </div>
 </div>
